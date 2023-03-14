@@ -1,0 +1,83 @@
+@keyframes startPhone {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 15px);
+  }
+  75% {
+    transform: translate(-5px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes qrcodeArrow {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(15px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes message0 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 15px);
+  }
+  75% {
+    transform: translate(-5px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes message1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 15px);
+  }
+  75% {
+    transform: translate(-5px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes message2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-10px, 15px);
+  }
+  75% {
+    transform: translate(5px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@keyframes message3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, -15px);
+  }
+  75% {
+    transform: translate(-10px, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
