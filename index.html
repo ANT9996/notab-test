@@ -10,7 +10,10 @@
   <body>
     <header class="header">
       <div class="header__logo">
-        <img src="./assets/img/cube.png" alt="cube" class="header__logo-cube" >
+        <picture>
+          <source srcset="./assets/img/webp/cube.webp 1x, ./assets/img/webp/cube@2x.webp 2x">
+          <img src="./assets/img/cube.png 1x" alt="cube" class="header__logo-cube" >
+        </picture>
         <img
           src="./assets/img/logo-header.svg"
           alt="logo-header"
@@ -36,11 +39,15 @@
         </p>
       </div>
       <div class="start__right">
-        <img
+        <picture>
+          <source srcset="./assets/img/webp/phone1.webp 1x, ./assets/img/webp/phone1@2x.webp 2x">
+          <img
           class="start__right-phone phone"
-          src="./assets/img/phone1.png"
+          src="./assets/img/phone1.png 1x"
           alt="phone1"
         >
+        </picture>
+        
         <img class="start__right-blur" src="./assets/img/blur.svg" alt="blur" >
       </div>
     </div>
@@ -84,7 +91,10 @@
     </div>
     <div class="mission">
       <div class="mission__left">
-        <img class="mission__left-phone phone" src="./assets/img/phone1.png" alt="phone1">
+        <picture>
+          <source srcset="./assets/img/webp/phone1.webp 1x, ./assets/img/webp/phone1@2x.webp 2x">
+          <img class="mission__left-phone phone" src="./assets/img/phone1.png 1x" alt="phone1">
+        </picture>
       </div>
       <div class="mission__right">
         <h2 class="mission__right-title title">Our mission and vision</h2>
@@ -102,8 +112,22 @@
     <div class="scanner">
       <div class="scanner__background"></div>
       <div class="scanner__left">
-        <img src="./assets/img/phone2.png" alt="phone2" class="scanner__left-phone1 phone">
-        <img src="./assets/img/phone3.png" alt="phone3" class="scanner__left-phone2 phone">
+        <picture>
+          <source srcset="./assets/img/webp/phone2.webp 1x, ./assets/img/webp/phone2@2x.webp 2x">
+          <img
+          class="scanner__left-phone1 phone"
+          src="./assets/img/phone2.png 1x"
+          alt="phone2"
+        >
+        </picture>
+        <picture>
+          <source srcset="./assets/img/webp/phone3.webp 1x, ./assets/img/webp/phone3@2x.webp 2x">
+          <img
+          class="scanner__left-phone2 phone"
+          src="./assets/img/phone3.png 1x"
+          alt="phone3"
+        >
+        </picture>
       </div>
       <div class="scanner__right">
         <div class="scanner__right__info">
@@ -133,27 +157,36 @@
     <div class="code">
       <div class="code__left">
         <div class="code__left__background">
-          <img class="code__left__background-img" src="./assets/img/background2.png" alt="background">
+          <img class="code__left__background-img" src="./assets/img/webp/background2.webp" alt="background">
         </div>
         <div class="code__left__info">
           <h2 class="code__left__info-title title">QR code</h2>
           <p class="code__left__info-subtitle subtitle">No more conflict situations due to wrong order. The guest selects the positions, and after that an individual QR code of his order is generated</p>
         </div>
         <div class="code__left__buttons">
-          <img src="./assets/img/appstore.svg" class="code__left__buttons-appstore" alt="appstore">
-          <img src="./assets/img/playmarket.svg" class="code__left__buttons-playmarket" alt="playmarket">
+          <a href="#"><img src="./assets/img/appstore.svg" class="code__left__buttons-appstore" alt="appstore"></a>
+          <a href="#"><img src="./assets/img/playmarket.svg" class="code__left__buttons-playmarket" alt="playmarket"></a>
         </div>
       </div>
       <div class="code__right">
         <!-- <div class="code__right-background"></div> -->
-        <img class="code__right-phone0 phone" src="./assets/img/phone4.png" alt="phone4">
-        <img class="code__right-phone1 phone" src="./assets/img/phone5.png" alt="phone5">
+        <picture>
+          <source srcset="./assets/img/webp/phone4.webp 1x, ./assets/img/webp/phone4@2x.webp 2x">
+          <img class="code__right-phone0 phone" src="./assets/img/phone4.png 1x" alt="phone4">
+        </picture>
+        <picture>
+          <source srcset="./assets/img/webp/phone5.webp 1x, ./assets/img/webp/phone5@2x.webp 2x">
+          <img class="code__right-phone1 phone" src="./assets/img/phone5.png 1x" alt="phone5">
+        </picture>
       </div>
     </div>
     <div class="qrcode">
       <div class="qrcode__phone">
         <div class="qrcode__phone__container">
-          <img class="phone" src="./assets/img/phone6.png" alt="phone6" >
+          <picture>
+            <source srcset="./assets/img/webp/phone6.webp 1x, ./assets/img/webp/phone6@2x.webp 2x">
+            <img class="phone" src="./assets/img/phone6.png 1x" alt="phone6" >
+          </picture>
           <div class="qrcode__phone__container__arrow">
             <img class="qrcode__phone__container__arrow-img" src="/assets/img/arrow.svg" alt="arrow">
             <div class="qrcode__phone__container__arrow-text">Scan QR-code</div>
@@ -175,11 +208,17 @@
         <div class="features__container-message1 message">No more lost or forgotten credit cards</div>
         <div class="features__container-message2 message">Skip the line</div>
         <div class="features__container-message3 message">No more split <br> your tab</div>
-        <img class="features__container-phone" src="./assets/img/phone7.png" alt="phone7">
+        <picture>
+          <source srcset="./assets/img/webp/phone7.webp 1x, ./assets/img/webp/phone7@2x.webp 2x">
+          <img class="features__container-phone" src="./assets/img/phone7.png 1x" alt="phone7">
+        </picture>
       </div>
     </div>
     <div class="screen">
-      <img src="./assets/img/photo8.png" alt="photo8" class="screen__phone">
+      <picture>
+        <source srcset="./assets/img/webp/phone8.webp 1x, ./assets/img/webp/phone8@2x.webp 2x">
+        <img src="./assets/img/phone8.png 1x" alt="phone8" class="screen__phone">
+      </picture>
     </div>
     <div class="form">
       <form action="/" method="get" onsubmit="alert('4321gfer')">
@@ -204,8 +243,8 @@
     <div class="download_footer">
       <h3 class="download_footer-title">DOWNLOAD OUR APP</h3>
       <div class="download_footer__buttons">
-        <img class="download_footer__buttons-appstore" src="./assets/img/appstore.svg" alt="appstore">
-        <img class="download_footer__buttons-playmarket" src="./assets/img/playmarket.svg" alt="playmarket">
+        <a href="#"><img class="download_footer__buttons-appstore" src="./assets/img/appstore.svg" alt="appstore"></a>
+        <a href="#"><img class="download_footer__buttons-playmarket" src="./assets/img/playmarket.svg" alt="playmarket"></a>
       </div>
     </div>
     <footer class="footer">

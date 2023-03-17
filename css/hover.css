@@ -43,3 +43,15 @@
 .form__button:active {
   transform: scale(.99);
 }
+
+.download_footer__buttons:hover {
+  transform: scale(1.1);
+}
+.download_footer__buttons-appstore:hover, .download_footer__buttons-playmarket:hover {
+  transform: scale(1.1);
+}
+
+
+.footer__right-terms:hover, .footer__right-policy:hover {
+  color: #F101BF;
+}
