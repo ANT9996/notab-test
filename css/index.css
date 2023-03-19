@@ -30,6 +30,10 @@ a {
   font-weight: bold;
 }
 
+.border-error {
+  border: 2px solid red!important;
+}
+
 ::selection {
   color: rgb(19, 117, 124);
   background-color: rgba(255, 255, 255, 0.096);

@@ -221,21 +221,21 @@
       </picture>
     </div>
     <div class="form">
-      <form action="/" method="get" onsubmit="alert('4321gfer')">
+      <form id="form" action="/" method="get">
       <div class="form__info">
         <h2 class="form__info-title title">Get In Touch</h2>
         <div class="form__info-subtitle subtitle">Have questions about Noble or just want to say hello? Drop us a line and a member of our team will getback to you shortly.</div>
       </div>
       <div class="form__block">
-        <input class="form__block-input" type="text" name="name" id="name" placeholder="Name" required >
-        <input class="form__block-input" type="text" name="venueName" id="venueName" placeholder="Venue Name" required >
+        <input class="form__block-input" type="text" name="name" id="name" placeholder="Name"   >
+        <input class="form__block-input" type="text" name="venueName" id="venueName" placeholder="Venue Name"   >
         <div class="form__block__city">
-          <input class="form__block-input" type="text" name="venueCity" id="venueCity" placeholder="Venue City" required >
-          <input class="form__block-input" type="text" name="stateCity" id="stateCity" placeholder="State City" required >
+          <input class="form__block-input" type="text" name="venueCity" id="venueCity" placeholder="Venue City"   >
+          <input class="form__block-input" type="text" name="stateCity" id="stateCity" placeholder="State City"   >
         </div>
-        <input class="form__block-input" type="email" name="email" id="email" placeholder="Email" required >
-        <input class="form__block-input" type="text" name="subject" id="subject" placeholder="Subject" required >
-        <textarea class="form__block-input input-message" name="message" id="message" placeholder="Message" required></textarea>
+        <input class="form__block-input" type="email" name="email" id="email" placeholder="Email"   >
+        <input class="form__block-input" type="text" name="subject" id="subject" placeholder="Subject"   >
+        <textarea class="form__block-input input-message" name="message" id="message" placeholder="Message"  ></textarea>
       </div>
       <button type="submit" class="form__button">Send</button>
     </form>
@@ -262,4 +262,5 @@
       </div>
     </footer>
   </body>
+  <script src="js/form.js"></script>
 </html>
