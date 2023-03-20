@@ -14,6 +14,7 @@ body {
 }
 
 .slider {
+  margin: auto;
   position: relative;
   overflow: hidden;
   width: var(--width);
