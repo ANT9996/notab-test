@@ -126,7 +126,8 @@ a {
 
 .start {
   overflow-x: clip;
-  padding: 0 5.3rem;
+  /* padding: 0 5.3rem; */
+  padding: 0 0 0 5.3rem;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
@@ -179,7 +180,8 @@ a {
 }
 
 .start__right {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin: 0 12% 0 auto;
   position: relative;
   display: flex;
 }
@@ -198,7 +200,8 @@ a {
 }
 
 .download {
-  padding: 1rem 13.5rem 1rem 5.3rem;
+  /* padding: 1rem 13.5rem 1rem 5.3rem; */
+  padding: 1rem 9.5rem 1rem 5.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -299,8 +302,11 @@ a {
   flex-direction: column;
   justify-content: center;
   width: 503px;
+  /*min-height: 312px;  added */
   border: 2px solid #ffffff80;
-  padding: 3.8rem 3.5rem;
+  padding: 5rem 3.5rem;
+  /* padding: 3.8rem 3.5rem; */
+  /* padding: 0 3.5rem; */
   border-radius: 21.37px;
 }
 
@@ -689,6 +695,7 @@ a {
 
 .features__info {
   margin-left: auto;
+  margin: 0 5.5rem 0 auto;
   width: 421px;
 }
 
@@ -837,7 +844,7 @@ a {
   justify-content: space-between;
 }
 .form__block__city .form__block-input {
-  width: 48%;
+  width: 48.6%;
 }
 
 .form__block-input {

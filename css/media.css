@@ -375,7 +375,7 @@
     padding: 1rem!important;
   }
   .form {
-    padding: 0 1.6rem!important;
+    padding: 0 1rem!important;
   }
   .footer {
     padding: 2rem!important;
@@ -387,17 +387,25 @@
 }
 
 @media (max-width: 500px) {
+  .download_footer {
+    margin: 5rem 0 2.5rem 0!important;
+  }
+  .download_footer__buttons {
+    margin-top: 1.5rem;
+  }
+  .download_footer__buttons-appstore, 
+  .download_footer__buttons-playmarket {
+    margin: 0.5rem 1rem!important;
+  }
   .mission {
     margin: 3rem 0 5rem 0;
   }
-  .phone {
+  .scanner__left-phone1, .scanner__left-phone2,
+  .code__right-phone0, .code__right-phone1 {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0)!important;
   }
   .tools__left-title::before {
     display: none;
-  }
-  .form__block-input {
-    padding-left: .5rem!important;
   }
   .code__right::before {
     top: 7%!important;
@@ -424,6 +432,8 @@
     justify-content: center!important;
     flex-direction: column-reverse!important;
     align-items: center!important;
+    overflow-x: clip;
+    overflow-y: clip;
   }
   .footer__right {
     align-items: center;
@@ -477,6 +487,9 @@
     min-height: 57px!important;
     border-radius: 10px!important;
     margin-bottom: 1rem!important;
+    padding-left: .8rem!important;
+    font-size: 16px!important;
+    line-height: 22px!important;
   }
   .input-message {
     height: 200px!important;
@@ -532,17 +545,25 @@
     width: 181px!important;
     border-radius: 25px!important;
   }
-  .footer {
-    overflow-x: clip;
-  }
   .download__buttons-appstore, .download__buttons-playmarket {
     margin: .5rem .5rem!important;
   }
   .download__title {
     text-align: center;
   }
+  .header {
+    padding: 2.5rem 1rem!important;
+  }
   .header__nav {
     margin-left: 0!important;
+  }
+  .header__logo-name {
+    width: 50px;
+    height: 12px;
+  }
+  .header__nav__elem-text {
+    font-size: 14px!important;
+    line-height: 19px!important;
   }
   .start__left {
     width: 250px!important;
@@ -649,8 +670,11 @@
   } */
 }
 
-/* @media (max-width: 375px) {
-  .scanner__background {
-    height: 26%!important;
+@media (max-width: 400px) {
+  .mission__right {
+    margin: 3rem auto 3rem 0!important;
   }
-} */
+  .mission__right-subtitle {
+    width: 300px!important;
+  }
+}
