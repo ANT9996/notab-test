@@ -2,15 +2,17 @@
   transform: scale(1.1);
 }
 
-.download__buttons-playmarket:hover, .download__buttons-appstore:hover {
-  transform: scale(1.1)!important;
+.download__buttons-playmarket:hover,
+.download__buttons-appstore:hover {
+  transform: scale(1.1) !important;
 }
 
 .code__left__buttons:hover {
   transform: scale(1.1);
 }
 
-.code__left__buttons-appstore:hover, .code__left__buttons-playmarket:hover {
+.code__left__buttons-appstore:hover,
+.code__left__buttons-playmarket:hover {
   transform: scale(1.1);
 }
 
@@ -31,7 +33,7 @@
   box-shadow: 6px 1px 25px #f101bd7e, -3px -3px 25px #0066ff85;
 }
 .form__block-input:focus {
-  box-shadow: 6px 1px 25px #F101BF, -3px -3px 25px #0066FF!important;
+  box-shadow: 6px 1px 25px #f101bf, -3px -3px 25px #0066ff !important;
 }
 
 .form__button:hover {
@@ -41,17 +43,18 @@
   box-shadow: 0 0 100px rgba(255, 255, 255, 0.349);
 }
 .form__button:active {
-  transform: scale(.99);
+  transform: scale(0.99);
 }
 
 .download_footer__buttons:hover {
   transform: scale(1.1);
 }
-.download_footer__buttons-appstore:hover, .download_footer__buttons-playmarket:hover {
+.download_footer__buttons-appstore:hover,
+.download_footer__buttons-playmarket:hover {
   transform: scale(1.1);
 }
 
-
-.footer__right-terms:hover, .footer__right-policy:hover {
-  color: #F101BF;
+.footer__right-terms:hover,
+.footer__right-policy:hover {
+  color: #f101bf;
 }

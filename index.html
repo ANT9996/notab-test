@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="stylesheet" href="css/index.css" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script defer src="js/form.js"></script>
     <title>NoTab</title>
   </head>
   <body>
     <header class="header">
       <div class="header__logo">
         <picture>
-          <source srcset="./assets/img/webp/cube.webp 1x, ./assets/img/webp/cube@2x.webp 2x">
-          <img src="./assets/img/cube.png" alt="cube" class="header__logo-cube" >
+          <source
+            srcset="
+              ./assets/img/webp/cube.webp    1x,
+              ./assets/img/webp/cube@2x.webp 2x
+            "
+          />
+          <img
+            src="./assets/img/cube.png"
+            alt="cube"
+            class="header__logo-cube"
+          />
         </picture>
         <img
           src="./assets/img/logo-header.svg"
           alt="logo-header"
           class="header__logo-name"
-        >
+        />
       </div>
       <nav class="header__nav">
         <a class="header__nav__elem" href="#">
-          <img src="./assets/img/login.svg" class="header__nav__elem-img" alt="login">
+          <img
+            src="./assets/img/login.svg"
+            class="header__nav__elem-img"
+            alt="login"
+          />
           <div class="header__nav__elem-text">Login</div>
         </a>
       </nav>
     </header>
-    <div class="start">
+    <section class="start">
       <div class="start__left">
         <h1 class="start__left-title">
-          A platform <br >
+          A platform <br />
           that works smarter
         </h1>
         <p class="start__left-subtitle">
@@ -40,216 +54,405 @@
       </div>
       <div class="start__right">
         <picture>
-          <source srcset="./assets/img/webp/phone1.webp 1x, ./assets/img/webp/phone1@2x.webp 2x">
+          <source
+            srcset="
+              ./assets/img/webp/phone1.webp    1x,
+              ./assets/img/webp/phone1@2x.webp 2x
+            "
+          />
           <img
-          class="start__right-phone phone"
-          src="./assets/img/phone1.png"
-          alt="phone1"
-        >
+            class="start__right-phone phone"
+            src="./assets/img/phone1.png"
+            alt="phone1"
+          />
         </picture>
-        
-        <img class="start__right-blur" src="./assets/img/blur.svg" alt="blur" >
+
+        <img class="start__right-blur" src="./assets/img/blur.svg" alt="blur" />
       </div>
-    </div>
-    <div class="download">
+    </section>
+    <section class="download">
       <h3 class="download__title">DOWNLOAD OUR APP</h3>
       <div class="download__buttons">
         <a href="#">
           <img
-          class="download__buttons-appstore"
-          src="./assets/img/appstore.svg"
-          alt="appstore"
-        >
+            class="download__buttons-appstore"
+            src="./assets/img/appstore.svg"
+            alt="appstore"
+          />
         </a>
         <a href="#">
-        <img
-          class="download__buttons-playmarket"
-          src="./assets/img/playmarket.svg"
-          alt="playmarket"
-        >
+          <img
+            class="download__buttons-playmarket"
+            src="./assets/img/playmarket.svg"
+            alt="playmarket"
+          />
         </a>
-        
-        
       </div>
-    </div>
-    <div class="cookie cookie-start">
+    </section>
+    <section class="cookie cookie-start">
       <p class="cookie__title">
         We use cookie to improve your experience on our site. By using our site
         you consent cookies.
       </p>
-      <div class="cookie__button">ок</div>
-    </div>
-    <div class="contact">
+      <button class="cookie__button">ок</button>
+    </section>
+    <section class="contact">
       <div class="contact__block">
-        <div class="contact__block-title">Would like to become a member, please contact us</div>
+        <div class="contact__block-title">
+          Would like to become a member, please contact us
+        </div>
         <a class="contact__block-href" href="#">support@notab.com</a>
       </div>
       <div class="contact__block">
         <div class="contact__block-title">Already a partner?</div>
         <a class="contact__block-href" href="#">Login</a>
       </div>
-    </div>
-    <div class="mission">
+    </section>
+    <section class="mission">
       <div class="mission__left">
         <picture>
-          <source srcset="./assets/img/webp/phone1.webp 1x, ./assets/img/webp/phone1@2x.webp 2x">
-          <img class="mission__left-phone phone" src="./assets/img/phone1.png" alt="phone1">
+          <source
+            srcset="
+              ./assets/img/webp/phone1.webp    1x,
+              ./assets/img/webp/phone1@2x.webp 2x
+            "
+          />
+          <img
+            class="mission__left-phone phone"
+            src="./assets/img/phone1.png"
+            alt="phone1"
+          />
         </picture>
       </div>
       <div class="mission__right">
         <h2 class="mission__right-title title">Our mission and vision</h2>
-        <p class="mission__right-subtitle subtitle">While technology is our sweet spot, we’ve developed our vision alongside
-          our customers to ensure your everyday problems are solved through simplistic tools. And as your business grows, we’ll grow right alongside with you. </p>
+        <p class="mission__right-subtitle subtitle">
+          While technology is our sweet spot, we’ve developed our vision
+          alongside our customers to ensure your everyday problems are solved
+          through simplistic tools. And as your business grows, we’ll grow right
+          alongside with you.
+        </p>
       </div>
-    </div>
-    <div class="cookie cookie-mobile">
+    </section>
+    <section class="cookie cookie-mobile">
       <div class="cookie__title">
         We use cookie to improve your experience on our site. By using our site
         you consent cookies.
       </div>
-      <div class="cookie__button">ок</div>
-    </div>
-    <div class="scanner">
+      <button class="cookie__button">ок</button>
+    </section>
+    <section class="scanner">
       <div class="scanner__background"></div>
       <div class="scanner__left">
         <picture>
-          <source srcset="./assets/img/webp/phone2.webp 1x, ./assets/img/webp/phone2@2x.webp 2x">
+          <source
+            srcset="
+              ./assets/img/webp/phone2.webp    1x,
+              ./assets/img/webp/phone2@2x.webp 2x
+            "
+          />
           <img
-          class="scanner__left-phone1 phone"
-          src="./assets/img/phone2.png"
-          alt="phone2"
-        >
+            class="scanner__left-phone1 phone"
+            src="./assets/img/phone2.png"
+            alt="phone2"
+          />
         </picture>
         <picture>
-          <source srcset="./assets/img/webp/phone3.webp 1x, ./assets/img/webp/phone3@2x.webp 2x">
+          <source
+            srcset="
+              ./assets/img/webp/phone3.webp    1x,
+              ./assets/img/webp/phone3@2x.webp 2x
+            "
+          />
           <img
-          class="scanner__left-phone2 phone"
-          src="./assets/img/phone3.png"
-          alt="phone3"
-        >
+            class="scanner__left-phone2 phone"
+            src="./assets/img/phone3.png"
+            alt="phone3"
+          />
         </picture>
       </div>
       <div class="scanner__right">
         <div class="scanner__right__info">
           <div class="title scanner__right__info-title">ID Scanner</div>
-          <div class="subtitle scanner__right__info-subtitle">Scan, verify, and collect data on each person that walks through your door
-            to humanize your data. You also get
-            a digital 86 list as well as a citywide ban list to keep your venue safe.</div>
+          <div class="subtitle scanner__right__info-subtitle">
+            Scan, verify, and collect data on each person that walks through
+            your door to humanize your data. You also get a digital 86 list as
+            well as a citywide ban list to keep your venue safe.
+          </div>
         </div>
       </div>
-    </div>
-    <div class="tools">
+    </section>
+    <section class="tools">
       <div class="tools__left">
         <h2 class="tools__left-title title">BI Tool Integration</h2>
-        <p class="tools__left-subtitle subtitle">We use Business Intelligence Tool that allows you to be updated what is happening in your business just by one click. Track revenue
-          and profit by one click.</p>
+        <p class="tools__left-subtitle subtitle">
+          We use Business Intelligence Tool that allows you to be updated what
+          is happening in your business just by one click. Track revenue and
+          profit by one click.
+        </p>
       </div>
       <div class="tools__right">
-        <img class="graph tools__right-graph0" src="./assets/img/graph0.svg" alt="graph0" >
-        <img class="graph tools__right-graph1" src="./assets/img/graph1.svg" alt="graph1" >
-        <img class="graph tools__right-graph2" src="./assets/img/graph2.svg" alt="graph2" >
-        <img class="graph tools__right-graph3" src="./assets/img/graph3.svg" alt="graph3" >
-        <img class="graph tools__right-graph4" src="./assets/img/graph4.svg" alt="graph4" >
-        <img class="graph tools__right-graph5" src="./assets/img/graph5.svg" alt="graph5" >
-        <img class="graph tools__right-graph6" src="./assets/img/graph6.svg" alt="graph6" >
+        <img
+          class="graph tools__right-graph0"
+          src="./assets/img/graph0.svg"
+          alt="graph0"
+        />
+        <img
+          class="graph tools__right-graph1"
+          src="./assets/img/graph1.svg"
+          alt="graph1"
+        />
+        <img
+          class="graph tools__right-graph2"
+          src="./assets/img/graph2.svg"
+          alt="graph2"
+        />
+        <img
+          class="graph tools__right-graph3"
+          src="./assets/img/graph3.svg"
+          alt="graph3"
+        />
+        <img
+          class="graph tools__right-graph4"
+          src="./assets/img/graph4.svg"
+          alt="graph4"
+        />
+        <img
+          class="graph tools__right-graph5"
+          src="./assets/img/graph5.svg"
+          alt="graph5"
+        />
+        <img
+          class="graph tools__right-graph6"
+          src="./assets/img/graph6.svg"
+          alt="graph6"
+        />
       </div>
-    </div>
-    <div class="code">
+    </section>
+    <section class="code">
       <div class="code__left">
         <div class="code__left__background">
-          <img class="code__left__background-img" src="./assets/img/webp/background2.webp" alt="background">
+          <img
+            class="code__left__background-img"
+            src="./assets/img/webp/background2.webp"
+            alt="background"
+          />
         </div>
         <div class="code__left__info">
           <h2 class="code__left__info-title title">QR code</h2>
-          <p class="code__left__info-subtitle subtitle">No more conflict situations due to wrong order. The guest selects the positions, and after that an individual QR code of his order is generated</p>
+          <p class="code__left__info-subtitle subtitle">
+            No more conflict situations due to wrong order. The guest selects
+            the positions, and after that an individual QR code of his order is
+            generated
+          </p>
         </div>
         <div class="code__left__buttons">
-          <a href="#"><img src="./assets/img/appstore.svg" class="code__left__buttons-appstore" alt="appstore"></a>
-          <a href="#"><img src="./assets/img/playmarket.svg" class="code__left__buttons-playmarket" alt="playmarket"></a>
+          <a href="#"
+            ><img
+              src="./assets/img/appstore.svg"
+              class="code__left__buttons-appstore"
+              alt="appstore"
+          /></a>
+          <a href="#"
+            ><img
+              src="./assets/img/playmarket.svg"
+              class="code__left__buttons-playmarket"
+              alt="playmarket"
+          /></a>
         </div>
       </div>
       <div class="code__right">
-        <!-- <div class="code__right-background"></div> -->
         <picture>
-          <source srcset="./assets/img/webp/phone4.webp 1x, ./assets/img/webp/phone4@2x.webp 2x">
-          <img class="code__right-phone0 phone" src="./assets/img/phone4.png" alt="phone4">
+          <source
+            srcset="
+              ./assets/img/webp/phone4.webp    1x,
+              ./assets/img/webp/phone4@2x.webp 2x
+            "
+          />
+          <img
+            class="code__right-phone0 phone"
+            src="./assets/img/phone4.png"
+            alt="phone4"
+          />
         </picture>
         <picture>
-          <source srcset="./assets/img/webp/phone5.webp 1x, ./assets/img/webp/phone5@2x.webp 2x">
-          <img class="code__right-phone1 phone" src="./assets/img/phone5.png" alt="phone5">
+          <source
+            srcset="
+              ./assets/img/webp/phone5.webp    1x,
+              ./assets/img/webp/phone5@2x.webp 2x
+            "
+          />
+          <img
+            class="code__right-phone1 phone"
+            src="./assets/img/phone5.png"
+            alt="phone5"
+          />
         </picture>
       </div>
-    </div>
-    <div class="qrcode">
+    </section>
+    <section class="qrcode">
       <div class="qrcode__phone">
         <div class="qrcode__phone__container">
           <picture>
-            <source srcset="./assets/img/webp/phone6.webp 1x, ./assets/img/webp/phone6@2x.webp 2x">
-            <img class="phone" src="./assets/img/phone6.png" alt="phone6" >
+            <source
+              srcset="
+                ./assets/img/webp/phone6.webp    1x,
+                ./assets/img/webp/phone6@2x.webp 2x
+              "
+            />
+            <img class="phone" src="./assets/img/phone6.png" alt="phone6" />
           </picture>
           <div class="qrcode__phone__container__arrow">
-            <img class="qrcode__phone__container__arrow-img" src="/assets/img/arrow.svg" alt="arrow">
+            <img
+              class="qrcode__phone__container__arrow-img"
+              src="/assets/img/arrow.svg"
+              alt="arrow"
+            />
             <div class="qrcode__phone__container__arrow-text">Scan QR-code</div>
           </div>
         </div>
       </div>
       <div class="qrcode__info">
         <h2 class="qrcode__info-title title">Generate your QR-code</h2>
-        <p class="qrcode__info-subtitle subtitle">The guest QR code is scanned <br> by the staff and automatically sent</p>
+        <p class="qrcode__info-subtitle subtitle">
+          The guest QR code is scanned <br />
+          by the staff and automatically sent
+        </p>
       </div>
-    </div>
-    <div class="features">
+    </section>
+    <section class="features">
       <div class="features__info">
-        <h2 class="features__info-title title">Easier ordering. Happier guests.</h2>
+        <h2 class="features__info-title title">
+          Easier ordering. Happier guests.
+        </h2>
         <div class="subtitle">NoTab makes it simple for patrons to easily</div>
       </div>
       <div class="features__container">
-        <div class="features__container-message0 message">No more lost or forgotten credit cards</div>
-        <div class="features__container-message1 message">No more lost or forgotten credit cards</div>
+        <div class="features__container-message0 message">
+          No more lost or forgotten credit cards
+        </div>
+        <div class="features__container-message1 message">
+          No more lost or forgotten credit cards
+        </div>
         <div class="features__container-message2 message">Skip the line</div>
-        <div class="features__container-message3 message">No more split <br> your tab</div>
+        <div class="features__container-message3 message">
+          No more split <br />
+          your tab
+        </div>
         <picture>
-          <source srcset="./assets/img/webp/phone7.webp 1x, ./assets/img/webp/phone7@2x.webp 2x">
-          <img class="features__container-phone" src="./assets/img/phone7.png" alt="phone7">
+          <source
+            srcset="
+              ./assets/img/webp/phone7.webp    1x,
+              ./assets/img/webp/phone7@2x.webp 2x
+            "
+          />
+          <img
+            class="features__container-phone"
+            src="./assets/img/phone7.png"
+            alt="phone7"
+          />
         </picture>
       </div>
-    </div>
-    <div class="screen">
+    </section>
+    <section class="screen">
       <picture>
-        <source srcset="./assets/img/webp/phone8.webp 1x, ./assets/img/webp/phone8@2x.webp 2x">
-        <img src="./assets/img/phone8.png" alt="phone8" class="screen__phone">
+        <source
+          srcset="
+            ./assets/img/webp/phone8.webp    1x,
+            ./assets/img/webp/phone8@2x.webp 2x
+          "
+        />
+        <img src="./assets/img/phone8.png" alt="phone8" class="screen__phone" />
       </picture>
-    </div>
-    <div class="form">
+    </section>
+    <section class="form">
       <form id="form" action="https://youtube.com" method="get">
-      <div class="form__info">
-        <h2 class="form__info-title title">Get In Touch</h2>
-        <div class="form__info-subtitle subtitle">Have questions about Noble or just want to say hello? Drop us a line and a member of our team will getback to you shortly.</div>
-      </div>
-      <div class="form__block">
-        <input class="form__block-input" type="text" name="name" id="name" placeholder="Name"   >
-        <input class="form__block-input" type="text" name="venueName" id="venueName" placeholder="Venue Name"   >
-        <div class="form__block__city">
-          <input class="form__block-input" type="text" name="venueCity" id="venueCity" placeholder="Venue City"   >
-          <input class="form__block-input" type="text" name="stateCity" id="stateCity" placeholder="State City"   >
+        <div class="form__info">
+          <h2 class="form__info-title title">Get In Touch</h2>
+          <div class="form__info-subtitle subtitle">
+            Have questions about Noble or just want to say hello? Drop us a line
+            and a member of our team will getback to you shortly.
+          </div>
         </div>
-        <input class="form__block-input" type="email" name="email" id="email" placeholder="Email"   >
-        <input class="form__block-input" type="text" name="subject" id="subject" placeholder="Subject"   >
-        <textarea class="form__block-input input-message" name="message" id="message" placeholder="Message"  ></textarea>
-      </div>
-      <button type="submit" class="form__button">Send</button>
-    </form>
-    </div>
-    <div class="download_footer">
+        <div class="form__block">
+          <input
+            class="form__block-input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+          />
+          <input
+            class="form__block-input"
+            type="text"
+            name="venueName"
+            id="venueName"
+            placeholder="Venue Name"
+          />
+          <div class="form__block__city">
+            <input
+              class="form__block-input"
+              type="text"
+              name="venueCity"
+              id="venueCity"
+              placeholder="Venue City"
+            />
+            <input
+              class="form__block-input"
+              type="text"
+              name="stateCity"
+              id="stateCity"
+              placeholder="State City"
+            />
+          </div>
+          <input
+            class="form__block-input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+          <input
+            class="form__block-input"
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Subject"
+          />
+          <textarea
+            class="form__block-input input-message"
+            name="message"
+            id="message"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <button type="submit" class="form__button">Send</button>
+      </form>
+    </section>
+    <section class="download_footer">
       <h3 class="download_footer-title">DOWNLOAD OUR APP</h3>
       <div class="download_footer__buttons">
-        <a href="#"><img class="download_footer__buttons-appstore" src="./assets/img/appstore.svg" alt="appstore"></a>
-        <a href="#"><img class="download_footer__buttons-playmarket" src="./assets/img/playmarket.svg" alt="playmarket"></a>
+        <a href="#"
+          ><img
+            class="download_footer__buttons-appstore"
+            src="./assets/img/appstore.svg"
+            alt="appstore"
+        /></a>
+        <a href="#"
+          ><img
+            class="download_footer__buttons-playmarket"
+            src="./assets/img/playmarket.svg"
+            alt="playmarket"
+        /></a>
       </div>
-    </div>
+    </section>
     <footer class="footer">
       <div class="footer__left">
-        <img class="footer__left-logo" src="./assets/img/logo-footer.svg" alt="logo-footer">
+        <img
+          class="footer__left-logo"
+          src="./assets/img/logo-footer.svg"
+          alt="logo-footer"
+        />
         <div class="footer__left-contact">
           <div>Contact us:</div>
           <a href="">support@notab.com</a>
@@ -262,5 +465,4 @@
       </div>
     </footer>
   </body>
-  <script src="js/form.js"></script>
 </html>

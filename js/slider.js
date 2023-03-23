@@ -5,12 +5,16 @@ let selectSlide = 0;
 let ms = 7; // Скорость перехода
 let step = 10;
 let width = document.querySelector(".slider").clientWidth;
+
+// Функция для перемещения по точкам
 let changeSlide = (index) => {
   document.getElementById("dot_" + selectSlide).classList.remove("activeSlide");
   selectSlide = index;
   document.getElementById("dot_" + selectSlide).classList.add("activeSlide");
   images.style.marginLeft = -selectSlide * width + "px";
 };
+
+// Проверка на наличие изображений
 if (document.getElementById("images").children.length > 0) {
   
   // Сокращение лишних изображений (если больше 10)
@@ -25,25 +29,24 @@ if (document.getElementById("images").children.length > 0) {
   //  Длина без последнего элемента
   let imagesCount = images.children.length - 1;
   
-  // Рендер точек для  перемещения
+  // Рендер точек для перемещения
   let dots = document.getElementById("dots");
   for (let index = 0; index < imagesCount; index++) {
     dots.innerHTML += 
     `<div id="dot_${index}" class="dot ${index === 0 ? "activeSlide" : ""}" onclick="changeSlide(${index})"></div>`;
   }
   
-  
-  
   let disableButtons = () => {
     next.classList.add("disable");
     prev.classList.add("disable");
   };
+
   let enableButtons = () => {
     next.classList.remove("disable");
     prev.classList.remove("disable");
   }
   
-  
+  // Переход по клику на кнопку (next)
   let plus = () => {
     if (selectSlide >= imagesCount - 1) {
       disableButtons();
@@ -79,6 +82,7 @@ if (document.getElementById("images").children.length > 0) {
     }
   };
 
+    // Переход по клику на кнопку (prev)
   let minus = () => {
     if (selectSlide === 0) {
       disableButtons();
@@ -99,6 +103,6 @@ if (document.getElementById("images").children.length > 0) {
 
   next.addEventListener("click", plus);
   prev.addEventListener("click", minus);
-} else {
+} else { // Если нет изображений
   document.getElementById("images").innerHTML = "<h1>Добавьте изображения</h1>";
 }

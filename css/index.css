@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans:wght@400;500&family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans:wght@400;500&family=Roboto:wght@500&display=swap");
 /* 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans', sans-serif; 
 font-family: 'Roboto', sans-serif;
 */
 
-@import url('/css/fonts.css');
-@import url('/css/hover.css');
-@import url('/css/anim.css');
-@import url('/css/media.css');
+@import url("/css/fonts.css");
+@import url("/css/hover.css");
+@import url("/css/anim.css");
+@import url("/css/media.css");
 
 * {
   padding: 0;
@@ -17,7 +17,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 img {
-  pointer-events:none;
+  pointer-events: none;
 }
 
 body {
@@ -31,7 +31,7 @@ a {
 }
 
 .border-error {
-  border: 2px solid red!important;
+  border: 2px solid red !important;
 }
 
 ::selection {
@@ -41,25 +41,25 @@ a {
 
 .title {
   margin-bottom: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 51px;
   line-height: 62px;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subtitle {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .phone {
@@ -98,9 +98,8 @@ a {
   display: flex;
   align-items: center;
   position: relative;
-  transition: all .3s;
+  transition: all 0.3s;
 }
-
 
 .header__nav__elem-img {
   margin-right: 0.75rem;
@@ -135,28 +134,28 @@ a {
 
 .start__left-title {
   margin-bottom: 8rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 70px;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .start__left-subtitle {
   position: relative;
   width: 380px;
   margin: 0 auto;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .start__left-subtitle::before {
   position: absolute;
@@ -224,26 +223,26 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .download__buttons-appstore {
   height: 51.33px;
   /* width: 163.5px; */
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   z-index: 1;
   pointer-events: all;
-  transition: all .3s;
+  transition: all 0.3s;
   cursor: pointer;
 }
 
 .download__buttons-playmarket {
   height: 51.33px;
   /* width: 184.5px; */
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
   z-index: 1;
   pointer-events: all;
-  transition: all .3s;
+  transition: all 0.3s;
   cursor: pointer;
 }
 
@@ -270,7 +269,7 @@ a {
 
 .cookie__button {
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
   background: rgba(255, 255, 255, 0.1);
   border: 0.5px solid #ffffff;
   border-radius: 6px;
@@ -323,7 +322,7 @@ a {
 }
 
 .contact__block-href {
-  transition: all .3s;
+  transition: all 0.3s;
   width: max-content;
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
@@ -355,38 +354,38 @@ a {
 
 .mission__right-title {
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 51px;
   line-height: 62px;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .mission__right-title::before {
-  content: '';
+  content: "";
   z-index: -1;
   position: absolute;
   left: 50%;
   top: 10px;
   width: 85px;
   height: 85px;
-  background: #F101BF;
+  background: #f101bf;
   opacity: 0.7;
   filter: blur(50px);
 }
 
 .mission__right-subtitle {
   width: 315px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .mission__left-phone {
@@ -405,16 +404,16 @@ a {
 .scanner__background {
   z-index: -1;
   position: relative;
-  background: url('/assets/img/webp/background.webp') no-repeat;
+  background: url("/assets/img/webp/background.webp") no-repeat;
   background-size: contain;
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
 .scanner__background::before {
-  content: '';
+  content: "";
   position: absolute;
   top: inherit;
   left: inherit;
@@ -468,12 +467,12 @@ a {
 }
 .tools__left-title::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 426.21px;
   height: 438.35px;
   top: -100px;
   left: -200px;
-  background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+  background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
   opacity: 0.1;
   filter: blur(125px);
   transform: rotate(5.78deg);
@@ -546,7 +545,7 @@ a {
 }
 
 .code__left__buttons {
-  transition: all .3s;
+  transition: all 0.3s;
   display: flex;
   z-index: 3;
   margin-top: 3rem;
@@ -557,7 +556,7 @@ a {
   /* width: 163.5px; */
   margin-right: 1rem;
   pointer-events: all;
-  transition: all .3s;
+  transition: all 0.3s;
   cursor: pointer;
 }
 
@@ -565,7 +564,7 @@ a {
   height: 51.33px;
   /* width: 184.5px; */
   pointer-events: all;
-  transition: all .3s;
+  transition: all 0.3s;
   cursor: pointer;
 }
 
@@ -574,17 +573,17 @@ a {
   padding-top: 13rem;
   display: flex;
   width: 45%;
-  background: url('/assets/img/webp/background1.webp') no-repeat top center;
+  background: url("/assets/img/webp/background1.webp") no-repeat top center;
   background-size: contain;
 }
 .code__right::before {
   position: absolute;
-  content: '';
+  content: "";
   right: 15%;
   top: 0;
   width: 139px;
   height: 75px;
-  background: url('/assets/img/Nightlife.svg') no-repeat;
+  background: url("/assets/img/Nightlife.svg") no-repeat;
 }
 
 .code__right-background {
@@ -595,8 +594,8 @@ a {
   height: 100%;
   object-fit: contain;
   z-index: -1;
-  background: url('/assets/img/background1.png') no-repeat;
-  box-shadow:  0px 0px 70px 20px #000000;
+  background: url("/assets/img/background1.png") no-repeat;
+  box-shadow: 0px 0px 70px 20px #000000;
 }
 
 .code__right-phone0 {
@@ -610,7 +609,8 @@ a {
   margin-top: auto;
   z-index: 3;
 }
-.code__left__info-title, .code__left__info-subtitle {
+.code__left__info-title,
+.code__left__info-subtitle {
   width: 315px;
 }
 
@@ -620,10 +620,9 @@ a {
   flex-direction: column;
 }
 
-
 .qrcode__phone {
   position: relative;
-  background: url('/assets/img/background-notab.svg') no-repeat center center;
+  background: url("/assets/img/background-notab.svg") no-repeat center center;
   background-size: contain;
   position: relative;
   display: flex;
@@ -648,22 +647,22 @@ a {
 }
 
 .qrcode__phone__container__arrow-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
-  margin-top: .8rem;
+  color: #ffffff;
+  margin-top: 0.8rem;
   margin-left: 6rem;
 }
 
 .qrcode__phone__container::before {
   position: absolute;
-  content: '';
-  background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+  content: "";
+  background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
   opacity: 0.15;
   top: -20%;
   filter: blur(155.784px);
@@ -704,15 +703,14 @@ a {
 }
 .features__container::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 90%;
-  background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+  background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
   opacity: 0.2;
   filter: blur(125px);
   transform: rotate(5.78deg);
   height: 268px;
   width: 287px;
-
 }
 
 .message {
@@ -726,10 +724,10 @@ a {
   line-height: 27px;
   display: flex;
   align-items: flex-end;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 285px;
   padding: 1rem 1.5rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .features__container-message0 {
@@ -760,7 +758,7 @@ a {
 }
 
 .screen {
-  background: url('/assets/img/webp/NOTAB.webp');
+  background: url("/assets/img/webp/NOTAB.webp");
   position: relative;
   display: flex;
   justify-content: center;
@@ -768,7 +766,7 @@ a {
   padding: 22rem 0;
 }
 .screen::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -785,12 +783,12 @@ a {
 }
 .form::before {
   position: absolute;
-  content: '';
+  content: "";
   left: 85%;
   top: 60%;
   width: 340px;
   height: 340px;
-  background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+  background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
   opacity: 0.3;
   filter: blur(125px);
   transform: rotate(5.78deg);
@@ -817,12 +815,12 @@ a {
 .form__info-subtitle::before {
   z-index: -1;
   position: absolute;
-  content: '';
+  content: "";
   width: 250px;
   height: 250px;
   left: -10%;
   top: -120%;
-  background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+  background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
   opacity: 0.3;
   filter: blur(125px);
   transform: rotate(5.78deg);
@@ -848,32 +846,32 @@ a {
 }
 
 .form__block-input {
-  transition: all .3s;
+  transition: all 0.3s;
   margin-bottom: 1.5rem;
   padding-left: 1.5rem;
   width: 100%;
   min-height: 83px;
   outline: none;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   /* color: #BFBFBF; */
 
-  background: #FFFFFF;
-  border: 1px solid #5C5C5C;
+  background: #ffffff;
+  border: 1px solid #5c5c5c;
   border-radius: 10px;
 }
 
 .form__button {
   cursor: pointer;
-  transition: all .1s;
+  transition: all 0.1s;
   margin: 2.25rem auto;
   background: #000000;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -881,7 +879,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
 
   width: 398px;
   height: 80px;
@@ -896,31 +894,31 @@ a {
 
 .download_footer-title {
   margin-bottom: 1rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .download_footer__buttons {
   display: flex;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .download_footer__buttons-appstore {
   pointer-events: all;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
   /* width: 260px; */
   height: 81.3px;
   margin: 1rem;
 }
 
 .download_footer__buttons-playmarket {
-  transition: all .3s;
+  transition: all 0.3s;
   pointer-events: all;
   margin: 1rem;
   /* width: 291.2px; */
@@ -929,20 +927,20 @@ a {
 
 .footer {
   position: relative;
-  font-family: 'Avenir', sans-serif;
+  font-family: "Avenir", sans-serif;
   padding: 5.3rem;
   display: flex;
   justify-content: space-between;
 }
 .footer::before {
   position: absolute;
-  content: '';
+  content: "";
   bottom: 0;
   height: 411px;
   width: 405px;
   left: -17px;
   border-radius: 0px;
-  background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+  background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
   opacity: 0.3;
   filter: blur(125px);
   transform: rotate(5.78deg);
@@ -959,22 +957,22 @@ a {
 }
 
 .footer__left-contact {
-  font-family: 'Avenir', sans-serif;
+  font-family: "Avenir", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
 .footer__left-date {
-  font-family: 'Avenir', sans-serif;
+  font-family: "Avenir", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer__right {
@@ -983,23 +981,23 @@ a {
 }
 
 .footer__right-terms {
-  font-family: 'Avenir', sans-serif;
+  font-family: "Avenir", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 25px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 1.5rem;
 }
 
 .footer__right-policy {
-  transition: all .2s;
-  font-family: 'Avenir', sans-serif;
+  transition: all 0.2s;
+  font-family: "Avenir", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 25px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
 }
