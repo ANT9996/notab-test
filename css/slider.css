@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Calibri', sans-serif;
 }
 body {
   background-color: #262626;
@@ -9,8 +10,8 @@ body {
 }
 
 :root {
-  --width: 500px;
-  --height: 300px;
+  --width: 1000px;
+  --height: 500px;
 }
 
 .slider {
@@ -78,12 +79,21 @@ body {
 
 .image {
   width: var(--width);
+  position: relative;
 }
 
-.image img {
+.image__img {
   height: var(--height);
   width: var(--width);
   object-fit: cover;
+}
+.image__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: .3rem 1rem;
+  background-color: rgba(255, 255, 255, 0.363);;
 }
 
 .dots {
