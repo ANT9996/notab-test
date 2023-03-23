@@ -7,16 +7,16 @@
   transform: scale(1.1) !important;
 }
 
-.code__left__buttons:hover {
+.code__left-buttons:hover {
   transform: scale(1.1);
 }
 
-.code__left__buttons-appstore:hover,
-.code__left__buttons-playmarket:hover {
+.code__left-buttons-appstore:hover,
+.code__left-buttons-playmarket:hover {
   transform: scale(1.1);
 }
 
-.header__nav__elem:hover {
+.header__nav-elem:hover {
   text-shadow: 0 0 10px white;
 }
 
@@ -46,11 +46,11 @@
   transform: scale(0.99);
 }
 
-.download_footer__buttons:hover {
+.download-footer__buttons:hover {
   transform: scale(1.1);
 }
-.download_footer__buttons-appstore:hover,
-.download_footer__buttons-playmarket:hover {
+.download-footer__buttons-appstore:hover,
+.download-footer__buttons-playmarket:hover {
   transform: scale(1.1);
 }
 

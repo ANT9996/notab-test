@@ -1,5 +1,5 @@
 @media (min-width: 1441px) {
-  .code__left__background {
+  .code__left-background {
     width: 100%;
   }
   .scanner__background {
@@ -59,10 +59,10 @@
     width: auto !important;
     padding: 22rem 5.3rem;
   }
-  .code__left__background {
+  .code__left-background {
     width: 100%;
   }
-  .code__left__background-img {
+  .code__left-background-img {
     object-fit: cover !important;
   }
   .code__right {
@@ -72,7 +72,7 @@
   .code__right-phone1 {
     transform: none !important;
   }
-  .code__left__background {
+  .code__left-background {
     background: linear-gradient(179.83deg, #000000f3, rgba(0, 0, 0, 0), #000000f3 99%) !important;
   }
   .code__right-background {
@@ -103,17 +103,17 @@
   .qrcode__phone {
     margin-bottom: 5rem;
   }
-  .qrcode__phone__container__arrow {
+  .qrcode__phone-container-arrow {
     top: 90% !important;
     left: 68% !important;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .qrcode__phone__container__arrow-img {
+  .qrcode__phone-container-arrow-img {
     transform: rotate(45deg);
   }
-  .qrcode__phone__container__arrow-text {
+  .qrcode__phone-container-arrow-text {
     margin-top: 2.5rem !important;
     margin-left: 0 !important;
     margin-right: 8rem !important;
@@ -137,10 +137,10 @@
   .header {
     justify-content: space-between !important;
   }
-  .header__nav__elem-img {
+  .header__nav-elem-img {
     display: none;
   }
-  .header__nav__elem-text::before {
+  .header__nav-elem-text::before {
     bottom: -7px !important;
   }
   .cookie {
@@ -186,7 +186,7 @@
 }
 
 @media (max-width: 900px) {
-  .qrcode__phone__container::before {
+  .qrcode__phone-container::before {
     height: 100% !important;
   }
   .features__info {
@@ -258,10 +258,10 @@
     min-width: 500px;
     overflow-x: clip;
   }
-  .form__block__city {
+  .form__block-city {
     flex-direction: column;
   }
-  .form__block__city .form__block-input {
+  .form__block-city .form__block-input {
     width: auto !important;
   }
   .graph {
@@ -273,12 +273,12 @@
   .download {
     margin-bottom: 2rem;
   }
-  .download_footer__buttons {
+  .download-footer__buttons {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .download_footer__buttons-appstore,
-  .download_footer__buttons-playmarket {
+  .download-footer__buttons-appstore,
+  .download-footer__buttons-playmarket {
     width: 185px !important;
     height: auto !important;
   }
@@ -388,21 +388,21 @@
   .footer {
     padding: 2rem !important;
   }
-  .code__left__buttons {
+  .code__left-buttons {
     justify-content: center;
     flex-wrap: wrap;
   }
 }
 
 @media (max-width: 500px) {
-  .download_footer {
+  .download-footer {
     margin: 5rem 0 2.5rem 0 !important;
   }
-  .download_footer__buttons {
+  .download-footer__buttons {
     margin-top: 1.5rem;
   }
-  .download_footer__buttons-appstore,
-  .download_footer__buttons-playmarket {
+  .download-footer__buttons-appstore,
+  .download-footer__buttons-playmarket {
     margin: 0.5rem 1rem !important;
   }
   .mission {
@@ -426,8 +426,8 @@
   }
   .download__buttons-appstore,
   .download__buttons-playmarket,
-  .code__left__buttons-appstore,
-  .code__left__buttons-playmarket {
+  .code__left-buttons-appstore,
+  .code__left-buttons-playmarket {
     width: 185px !important;
     height: 60px !important;
   }
@@ -549,10 +549,10 @@
   .tools__left {
     margin-bottom: 4rem !important;
   }
-  .qrcode__phone__container__arrow {
+  .qrcode__phone-container-arrow {
     left: 40% !important;
   }
-  .qrcode__phone__container .phone {
+  .qrcode__phone-container .phone {
     width: 181px !important;
     border-radius: 25px !important;
   }
@@ -573,7 +573,7 @@
     width: 50px;
     height: 12px;
   }
-  .header__nav__elem-text {
+  .header__nav-elem-text {
     font-size: 14px !important;
     line-height: 19px !important;
   }
@@ -664,11 +664,11 @@
     width: 173px !important;
     border-radius: 5px !important;
   }
-  .qrcode__phone__container::before {
+  .qrcode__phone-container::before {
     opacity: 0.45 !important;
   }
-  .code__left__buttons-appstore,
-  .code__left__buttons-playmarket {
+  .code__left-buttons-appstore,
+  .code__left-buttons-playmarket {
     margin-right: 0 !important;
     margin: 0.5rem 0;
   }

@@ -93,7 +93,7 @@ a {
   margin-left: 6.75rem;
 }
 
-.header__nav__elem {
+.header__nav-elem {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -101,11 +101,11 @@ a {
   transition: all 0.3s;
 }
 
-.header__nav__elem-img {
+.header__nav-elem-img {
   margin-right: 0.75rem;
 }
 
-.header__nav__elem-text {
+.header__nav-elem-text {
   position: relative;
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
@@ -114,7 +114,7 @@ a {
   line-height: 25px;
   color: #ffffff;
 }
-.header__nav__elem-text::before {
+.header__nav-elem-text::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -530,7 +530,7 @@ a {
   /* background: url('/assets/img/background2.png') no-repeat; */
 }
 
-.code__left__background {
+.code__left-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -538,20 +538,20 @@ a {
   background: linear-gradient(179.83deg, #000000f3 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000f3 83.92%);
 }
 
-.code__left__background-img {
+.code__left-background-img {
   width: 100%;
   object-fit: contain;
   z-index: -1;
 }
 
-.code__left__buttons {
+.code__left-buttons {
   transition: all 0.3s;
   display: flex;
   z-index: 3;
   margin-top: 3rem;
 }
 
-.code__left__buttons-appstore {
+.code__left-buttons-appstore {
   height: 51.33px;
   /* width: 163.5px; */
   margin-right: 1rem;
@@ -560,7 +560,7 @@ a {
   cursor: pointer;
 }
 
-.code__left__buttons-playmarket {
+.code__left-buttons-playmarket {
   height: 51.33px;
   /* width: 184.5px; */
   pointer-events: all;
@@ -605,12 +605,12 @@ a {
   transform: translate(-8rem, 22rem);
 }
 
-.code__left__info {
+.code__left-info {
   margin-top: auto;
   z-index: 3;
 }
-.code__left__info-title,
-.code__left__info-subtitle {
+.code__left-info-title,
+.code__left-info-subtitle {
   width: 315px;
 }
 
@@ -629,11 +629,11 @@ a {
   justify-content: center;
 }
 
-.qrcode__phone__container {
+.qrcode__phone-container {
   position: relative;
 }
 
-.qrcode__phone__container__arrow {
+.qrcode__phone-container-arrow {
   position: absolute;
   left: 120%;
   top: 25%;
@@ -641,12 +641,12 @@ a {
   animation: qrcodeArrow ease-in-out 7s infinite;
 }
 
-.qrcode__phone__container__arrow-img {
+.qrcode__phone-container-arrow-img {
   width: 100.29px;
   /* transform: matrix(-0.89, -0.46, -0.46, 0.89, 0, 0); */
 }
 
-.qrcode__phone__container__arrow-text {
+.qrcode__phone-container-arrow-text {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -659,7 +659,7 @@ a {
   margin-left: 6rem;
 }
 
-.qrcode__phone__container::before {
+.qrcode__phone-container::before {
   position: absolute;
   content: "";
   background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
@@ -837,11 +837,11 @@ a {
   padding: 1.3rem;
 }
 
-.form__block__city {
+.form__block-city {
   display: flex;
   justify-content: space-between;
 }
-.form__block__city .form__block-input {
+.form__block-city .form__block-input {
   width: 48.6%;
 }
 
@@ -885,14 +885,14 @@ a {
   height: 80px;
 }
 
-.download_footer {
+.download-footer {
   margin: 5rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.download_footer-title {
+.download-footer__title {
   margin-bottom: 1rem;
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
@@ -903,12 +903,12 @@ a {
   color: #ffffff;
 }
 
-.download_footer__buttons {
+.download-footer__buttons {
   display: flex;
   transition: all 0.3s;
 }
 
-.download_footer__buttons-appstore {
+.download-footer__buttons-appstore {
   pointer-events: all;
   cursor: pointer;
   transition: all 0.3s;
@@ -917,7 +917,7 @@ a {
   margin: 1rem;
 }
 
-.download_footer__buttons-playmarket {
+.download-footer__buttons-playmarket {
   transition: all 0.3s;
   pointer-events: all;
   margin: 1rem;
