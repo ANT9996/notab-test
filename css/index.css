@@ -125,7 +125,6 @@ a {
 
 .start {
   overflow-x: clip;
-  /* padding: 0 5.3rem; */
   padding: 0 0 0 5.3rem;
   margin-bottom: 3rem;
   display: flex;
@@ -179,7 +178,6 @@ a {
 }
 
 .start__right {
-  /* margin: 0 auto; */
   margin: 0 12% 0 auto;
   position: relative;
   display: flex;
@@ -199,7 +197,6 @@ a {
 }
 
 .download {
-  /* padding: 1rem 13.5rem 1rem 5.3rem; */
   padding: 1rem 9.5rem 1rem 5.3rem;
   display: flex;
   justify-content: space-between;
@@ -228,7 +225,6 @@ a {
 
 .download__buttons-appstore {
   height: 51.33px;
-  /* width: 163.5px; */
   margin: 0 0.5rem;
   z-index: 1;
   pointer-events: all;
@@ -238,7 +234,6 @@ a {
 
 .download__buttons-playmarket {
   height: 51.33px;
-  /* width: 184.5px; */
   margin: 0 0.5rem;
   z-index: 1;
   pointer-events: all;
@@ -301,11 +296,8 @@ a {
   flex-direction: column;
   justify-content: center;
   width: 503px;
-  /*min-height: 312px;  added */
   border: 2px solid #ffffff80;
   padding: 5rem 3.5rem;
-  /* padding: 3.8rem 3.5rem; */
-  /* padding: 0 3.5rem; */
   border-radius: 21.37px;
 }
 
@@ -343,7 +335,6 @@ a {
   width: 50%;
   display: flex;
   justify-content: start;
-  /* align-items: center; */
 }
 
 .mission__right {
@@ -451,7 +442,6 @@ a {
 
 .tools__left {
   width: 40%;
-  /* margin: auto 0; */
 }
 
 .tools__right {
@@ -527,7 +517,6 @@ a {
   flex-direction: column;
   padding-left: 7rem;
   width: 55%;
-  /* background: url('/assets/img/background2.png') no-repeat; */
 }
 
 .code__left-background {
@@ -553,7 +542,6 @@ a {
 
 .code__left-buttons-appstore {
   height: 51.33px;
-  /* width: 163.5px; */
   margin-right: 1rem;
   pointer-events: all;
   transition: all 0.3s;
@@ -562,7 +550,6 @@ a {
 
 .code__left-buttons-playmarket {
   height: 51.33px;
-  /* width: 184.5px; */
   pointer-events: all;
   transition: all 0.3s;
   cursor: pointer;
@@ -643,7 +630,6 @@ a {
 
 .qrcode__phone-container-arrow-img {
   width: 100.29px;
-  /* transform: matrix(-0.89, -0.46, -0.46, 0.89, 0, 0); */
 }
 
 .qrcode__phone-container-arrow-text {
@@ -857,7 +843,6 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  /* color: #BFBFBF; */
 
   background: #ffffff;
   border: 1px solid #5c5c5c;
@@ -912,7 +897,6 @@ a {
   pointer-events: all;
   cursor: pointer;
   transition: all 0.3s;
-  /* width: 260px; */
   height: 81.3px;
   margin: 1rem;
 }
@@ -921,7 +905,6 @@ a {
   transition: all 0.3s;
   pointer-events: all;
   margin: 1rem;
-  /* width: 291.2px; */
   height: 81.3px;
 }
 
