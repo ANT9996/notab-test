@@ -8,6 +8,7 @@ let width = document.querySelector(".slider").clientWidth;
 
 // Функция для перемещения по точкам
 let changeSlide = (index) => {
+  width = document.querySelector(".slider").clientWidth;
   document.getElementById("dot_" + selectSlide).classList.remove("activeSlide");
   selectSlide = index;
   document.getElementById("dot_" + selectSlide).classList.add("activeSlide");
@@ -48,15 +49,18 @@ if (document.getElementById("images").children.length > 0) {
   
   // Переход по клику на кнопку (next)
   let plus = () => {
+    width = document.querySelector(".slider").clientWidth;
+    console.log(width);
     if (selectSlide >= imagesCount - 1) {
       disableButtons();
       let start = 0;
       let interval = setInterval(() => {
-        if (start > width) {
+        if (start >= width) {
           document.getElementById("dot_" + selectSlide).classList.remove("activeSlide");
           selectSlide = 0;
           document.getElementById("dot_" + selectSlide).classList.add("activeSlide");
           clearInterval(interval);
+          images.style.marginLeft = -(width * imagesCount) + 'px'
           enableButtons()
         } else {
           images.style.marginLeft = -((selectSlide === 0 ? 0 : selectSlide) * width + start) + "px";
@@ -72,6 +76,7 @@ if (document.getElementById("images").children.length > 0) {
           selectSlide++;
           document.getElementById("dot_" + selectSlide).classList.add("activeSlide");
           clearInterval(interval);
+          images.style.marginLeft = -(width * selectSlide) + 'px'
           enableButtons()
           return;
         } else {
@@ -84,6 +89,8 @@ if (document.getElementById("images").children.length > 0) {
 
     // Переход по клику на кнопку (prev)
   let minus = () => {
+    width = document.querySelector(".slider").clientWidth;
+    console.log(width);
     if (selectSlide === 0) {
       disableButtons();
       document.getElementById("dot_" + selectSlide).classList.remove("activeSlide");

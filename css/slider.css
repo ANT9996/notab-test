@@ -6,12 +6,12 @@
 body {
   background-color: #262626;
   height: 100vh;
-  display: flex;
+  /* display: flex; */
 }
 
 :root {
-  --width: 600px;
-  --height: 300px;
+  --width: 100%;
+  --height: 100%;
 }
 
 .slider {
@@ -73,13 +73,14 @@ body {
 }
 
 .images {
-  width: 100%;
+  width: var(--width);
   height: 100%;
   display: flex;
 }
 
 .image {
   width: var(--width);
+  min-width: 100%;
   position: relative;
 }
 
