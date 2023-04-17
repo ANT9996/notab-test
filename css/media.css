@@ -206,8 +206,7 @@
   }
   .code__left,
   .code__right {
-    padding-left: 0 !important;
-    padding: 11rem 3rem !important;
+    padding: 11rem 3rem 11rem 0 !important;
   }
 
   .qrcode {
@@ -335,7 +334,7 @@
     left: 25% !important;
   }
   .tools__right-graph4 {
-    top: 0% !important;
+    top: 0 !important;
     left: 50% !important;
   }
   .tools__right-graph5 {
@@ -391,6 +390,12 @@
   .code__left-buttons {
     justify-content: center;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 550px) {
+  .tools {
+    min-width: unset;
   }
 }
 
@@ -669,8 +674,7 @@
   }
   .code__left-buttons-appstore,
   .code__left-buttons-playmarket {
-    margin-right: 0 !important;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0!important;
   }
   .scanner__background {
     height: 19% !important;
