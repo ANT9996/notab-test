@@ -6,13 +6,50 @@ let ms = 7; // Скорость перехода
 let step = 10;
 let width = document.querySelector(".slider").clientWidth;
 
+let margin = (htmlElem) => {
+  return parseInt(htmlElem.style.marginLeft || '0px')
+}
+
+let disableButtons = () => {
+  let dots = document.getElementsByClassName("dot");
+  next.classList.add("disable");
+  prev.classList.add("disable");
+  for (const dot of dots) {
+    dot.classList.add("disable");
+  }
+};
+let enableButtons = () => {
+  let dots = document.getElementsByClassName("dot");
+  next.classList.remove("disable");
+  prev.classList.remove("disable");
+  for (const dot of dots) {
+    dot.classList.remove("disable");
+  }
+}
+
+let interval;
+let changeInterval = (direction, index, marginStep = 10) => interval = setInterval(() => {
+  console.log(margin(images), -(width * index))
+  console.log(direction)
+  if (margin(images) === -(width * index)) {
+    document.getElementById("dot_" + selectSlide).classList.remove("activeSlide");
+    selectSlide = index;
+    document.getElementById("dot_" + selectSlide).classList.add("activeSlide");
+    clearInterval(interval)
+    enableButtons()
+  } else {
+    direction
+        ? images.style.marginLeft = (margin(images) - marginStep) + "px"
+        : images.style.marginLeft = (margin(images) + marginStep) + "px"
+  }
+}, 0);
+
 // Функция для перемещения по точкам
 let changeSlide = (index) => {
+  disableButtons()
   width = document.querySelector(".slider").clientWidth;
-  document.getElementById("dot_" + selectSlide).classList.remove("activeSlide");
-  selectSlide = index;
-  document.getElementById("dot_" + selectSlide).classList.add("activeSlide");
-  images.style.marginLeft = -selectSlide * width + "px";
+  let changeType = index > selectSlide
+  changeInterval(changeType, index, 10)
 };
 
 // Проверка на наличие изображений
@@ -31,26 +68,17 @@ if (document.getElementById("images").children.length > 0) {
   let imagesCount = images.children.length - 1;
   
   // Рендер точек для перемещения
-  let dots = document.getElementById("dots");
+  let dotsBlock = document.getElementById("dots");
   for (let index = 0; index < imagesCount; index++) {
-    dots.innerHTML += 
+    dotsBlock.innerHTML +=
     `<div id="dot_${index}" class="dot ${index === 0 ? "activeSlide" : ""}" onclick="changeSlide(${index})"></div>`;
   }
   
-  let disableButtons = () => {
-    next.classList.add("disable");
-    prev.classList.add("disable");
-  };
 
-  let enableButtons = () => {
-    next.classList.remove("disable");
-    prev.classList.remove("disable");
-  }
   
   // Переход по клику на кнопку (next)
   let plus = () => {
     width = document.querySelector(".slider").clientWidth;
-    console.log(width);
     if (selectSlide >= imagesCount - 1) {
       disableButtons();
       let start = 0;
@@ -78,7 +106,6 @@ if (document.getElementById("images").children.length > 0) {
           clearInterval(interval);
           images.style.marginLeft = -(width * selectSlide) + 'px'
           enableButtons()
-          return;
         } else {
           images.style.marginLeft = -((selectSlide === 0 ? 0 : selectSlide) * width + start) + "px";
           start += step;

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans:wght@400;500&family=Roboto:wght@500&display=swap");
-/* 
+/*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans', sans-serif; 
 font-family: 'Roboto', sans-serif;
@@ -241,13 +240,21 @@ a {
   cursor: pointer;
 }
 
+.close {
+    display: none!important;
+}
 .cookie {
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 1.3rem 1.3rem 1.3rem 5.3rem;
   background-color: #212834;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3.8rem;
+  /*margin-bottom: 3.8rem;*/
 }
 .cookie-mobile {
   display: none;
@@ -394,7 +401,7 @@ a {
 
 .scanner__background {
   z-index: -1;
-  position: relative;
+  /*position: relative;*/
   background: url("/assets/img/webp/background.webp") no-repeat;
   background-size: contain;
   position: absolute;
@@ -582,7 +589,7 @@ a {
   object-fit: contain;
   z-index: -1;
   background: url("/assets/img/background1.png") no-repeat;
-  box-shadow: 0px 0px 70px 20px #000000;
+  box-shadow: 0 0 70px 20px #000000;
 }
 
 .code__right-phone0 {
@@ -611,7 +618,6 @@ a {
   position: relative;
   background: url("/assets/img/background-notab.svg") no-repeat center center;
   background-size: contain;
-  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -679,7 +685,6 @@ a {
 }
 
 .features__info {
-  margin-left: auto;
   margin: 0 5.5rem 0 auto;
   width: 421px;
 }
@@ -922,7 +927,7 @@ a {
   height: 411px;
   width: 405px;
   left: -17px;
-  border-radius: 0px;
+  border-radius: 0;
   background: linear-gradient(12.08deg, #f101bf 2.82%, #0066ff 97.06%);
   opacity: 0.3;
   filter: blur(125px);

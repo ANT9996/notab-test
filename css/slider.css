@@ -6,7 +6,6 @@
 body {
   background-color: #262626;
   height: 100vh;
-  /* display: flex; */
 }
 
 :root {
@@ -20,7 +19,7 @@ body {
   overflow: hidden;
   width: var(--width);
   height: var(--height);
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.397);
 }
 
@@ -45,25 +44,34 @@ body {
 
 .prev,
 .next {
+  border: 1px solid rgba(0,0,0,0);
   transition: all 0.3s;
   display: flex;
   z-index: 2;
   width: 30px;
-  height: 50%;
-  background: rgba(255, 255, 255, 0.363);
-  border-radius: 70px;
-  padding: 2.5px;
+  height: 30%;
+  background: rgba(0, 0, 0, 0.36);
+  padding: 3px;
 }
 
-.prev:hover,
-.next:hover {
+.prev:hover, .next:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
 }
-.prev:active {
+
+.prev:hover {
+  transform: translateX(1px);
+}
+.next:hover {
   transform: translateX(-1px);
 }
+.prev:active {
+  transform: translateX(-2px);
+}
 .next:active {
-  transform: translateX(1px);
+  transform: translateX(2px);
 }
 
 .prev img,
@@ -95,7 +103,7 @@ body {
   left: 0;
   width: 100%;
   padding: 0.3rem 1rem;
-  background-color: rgba(255, 255, 255, 0.363);
+  background-color: rgba(0, 0, 0, 0.36);
 }
 
 .dots {
@@ -113,13 +121,15 @@ body {
   transition: all 0.3s;
   width: 15px;
   height: 15px;
-  background-color: white;
-  opacity: 0.5;
+  background-color: #000000;
+  border: 1px solid white;
+  opacity: .5;
   border-radius: 15px;
   margin: 1px;
 }
 .dot:hover {
   transform: translateY(-1px);
+  opacity: .7;
 }
 
 .activeSlide {
