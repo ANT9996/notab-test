@@ -1,15 +1,15 @@
-.download__buttons:hover {
-  transform: scale(1.1);
-}
+/*.download__buttons:hover {*/
+/*  transform: scale(1.1);*/
+/*}*/
 
 .download__buttons-playmarket:hover,
 .download__buttons-appstore:hover {
   transform: scale(1.1) !important;
 }
 
-.code__left-buttons:hover {
-  transform: scale(1.1);
-}
+/*.code__left-buttons:hover {*/
+/*  transform: scale(1.1);*/
+/*}*/
 
 .code__left-buttons-appstore:hover,
 .code__left-buttons-playmarket:hover {
@@ -46,9 +46,9 @@
   transform: scale(0.99);
 }
 
-.download-footer__buttons:hover {
-  transform: scale(1.1);
-}
+/*.download-footer__buttons:hover {*/
+/*  transform: scale(1.1);*/
+/*}*/
 .download-footer__buttons-appstore:hover,
 .download-footer__buttons-playmarket:hover {
   transform: scale(1.1);

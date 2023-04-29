@@ -157,7 +157,7 @@
   .code__right-background {
     background-size: cover !important;
     background-position: right center !important;
-    background: url("/assets/img/background1-back.png") !important;
+    background: url("/assets/img/webp/background1-back.webp") !important;
   }
   .download {
     flex-wrap: wrap;
@@ -206,7 +206,7 @@
   }
   .code__left,
   .code__right {
-    padding: 11rem 3rem 11rem 0 !important;
+    padding: 11rem 3rem!important;
   }
 
   .qrcode {
@@ -602,7 +602,7 @@
     padding: 15rem 1rem 0 1rem !important;
   }
   .code__right {
-    background: url("/assets/img/background1-back.png") no-repeat top center !important;
+    background: url("/assets/img/webp/background1-back.webp") no-repeat top center !important;
     background-size: contain !important;
   }
   .tools__left-title {
