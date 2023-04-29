@@ -98,12 +98,14 @@ body {
   object-fit: cover;
 }
 .image__text {
+  text-align: center;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   padding: 0.3rem 1rem;
   background-color: rgba(0, 0, 0, 0.36);
+  color: white;
 }
 
 .dots {
