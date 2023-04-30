@@ -244,7 +244,7 @@ a {
     display: none!important;
 }
 .cookie {
-  z-index: 2;
+  z-index: 4;
   position: fixed;
   bottom: 0;
   left: 0;
